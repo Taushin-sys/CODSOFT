@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "what's up"],
+      "responses": [
+        "Hey! Ready to crush some study goals today?",
+        "Hello there! Your personal study sidekick, at your service. What's the plan?",
+        "Hi! Got your coffee/tea ready? Let's make today productive."
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "study tips",
+        "how to study",
+        "study ideas",
+        "help me study",
+        "best way to study",
+        "study hacks",
+        "how can I improve my focus",
+        "any study strategies"
+      ],
+      "responses": [
+        "Okay, pro-tip incoming! Try the Pomodoro Technique: 25 mins of pure focus, then a 5-min break. It's a game-changer!",
+        "Let's level-up your study game! Instead of just re-reading, try to explain a topic out loud without notes. It's called Active Recall and it works wonders.",
+        "Here's a good one: do a 'brain dump' before you start. Write down everything distracting you so you can focus. Clear mind, better results!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["motivate me", "i feel lazy", "study motivation", "i can't focus", "i'm so unmotivated"],
+      "responses": [
+        "Ugh, I get it. The motivation battery is running low. Remember your 'why'! Think about your ultimate goal. Every small step gets you closer!",
+        "Feeling stuck is totally normal. Let's just do one thing for 5 minutes. Just five. Sometimes starting is the hardest part. You ready?",
+        "Think of it like a video game. Every chapter you read is a level up, and every problem you solve gives you XP. You're getting stronger! You've got this!"
+      ]
+    },
+    {
+      "tag": "math_help",
+      "patterns": ["math help", "help with math", "i hate math", "solve equation", "math problem"],
+      "responses": [
+        "Ah, the dreaded math problem! Don't worry, we'll debug this together. What topic are we tackling? Algebra, calculus, something else?",
+        "Math is just a puzzle in disguise. I can't solve it for you (that's your brain's job!), but I can help break down the concept. What's the problem about?",
+        "Let's untangle this math knot. Tell me which part is giving you the most trouble, and we'll start there."
+      ]
+    },
+    {
+      "tag": "take_a_break",
+      "patterns": ["i need a break", "suggest a break idea", "time for a break", "i'm tired"],
+      "responses": [
+        "Good call! Your brain needs to recharge. How about a 5-minute stretch, a quick walk, or listening to one favorite song?",
+        "Break time is crucial! Step away from the screen, grab some water, and maybe do a quick doodle. Your mind will thank you.",
+        "Excellent idea! Even 5 minutes away from your books can make a huge difference. Go for it!"
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["tell me something fun", "random fact", "fun fact", "tell me something interesting"],
+      "responses": [
+        "Did you know the human brain uses about 20% of the body’s oxygen and calories, even while you're resting? Keep it fueled!",
+        "Fun fact: Spacing out your study sessions (spaced repetition) is proven to be more effective for long-term memory than cramming. So, those short, regular sessions really do pay off!",
+        "Here's one: The phenomenon of getting a great idea in the shower is a real thing! It’s because the relaxed, solitary, and non-judgmental environment allows your brain to think more creatively."
+      ]
+    },
+    {
+      "tag": "reminders",
+      "patterns": ["remind me", "set a reminder", "i have homework", "i have a deadline", "when is my submission"],
+      "responses": [
+        "My virtual memory is ready! What's the deadline or task you need me to hold onto for this session?",
+        "Consider it noted! What's the mission and when's the due date?",
+        "You got it! Let's get this scheduled so it's off your mind. What do I need to remember for you?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx", "appreciate it"],
+      "responses": [
+        "Anytime! That's what I'm here for. Go crush it!",
+        "Happy to help! Keep that amazing brain of yours working!",
+        "Of course! Let me know if any other questions pop up."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "take care", "i'm done"],
+      "responses": [
+        "Alright, signing off for now. You've got this! Happy studying!",
+        "Catch you later! Remember to rest up—your brain needs it to recharge.",
+        "Great session! Talk to you soon. Keep up the awesome work!"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Oops, my processors got a bit tangled there. Could you try asking that in a different way?",
+        "Hmm, that's a new one for me. I'm best with things like study tips and motivation. Can you rephrase?",
+        "I'm still learning! I didn't quite catch that. Could you try again?"
+      ]
+    }
+  ]
+}
