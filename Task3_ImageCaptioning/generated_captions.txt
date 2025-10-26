@@ -1,0 +1,5 @@
+img1.jpg -> a lake with mountains and a mountain range
+img2.jpg -> a green parrot standing on top of a green plant
+img3.jpg -> a pair of yellow and green colored umbrellas
+img4.jpg -> a pile of apples sitting on top of a wooden table
+img5.jpg -> a white car is parked on the side of the road
